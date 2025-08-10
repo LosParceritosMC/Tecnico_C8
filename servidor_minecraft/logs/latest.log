@@ -1,0 +1,78 @@
+[01:50:11] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:50:12] [ServerMain/WARN]: Missing data pack paper
+[01:50:13] [ServerMain/INFO]: Loaded 1407 recipes
+[01:50:13] [ServerMain/INFO]: Loaded 1520 advancements
+[01:50:13] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[01:50:13] [Server thread/INFO]: Loading properties
+[01:50:13] [Server thread/INFO]: Default game type: SURVIVAL
+[01:50:13] [Server thread/INFO]: Generating keypair
+[01:50:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:50:13] [Server thread/INFO]: Using epoll channel type
+[01:50:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:50:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:50:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:50:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:50:14] [Server thread/INFO]: Preparing level "world"
+[01:50:14] [Server thread/ERROR]: Error loading saved data: SavedDataType[chunks]
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: length -1 is negative
+	at java.base/java.lang.System.arraycopy(Native Method) ~[?:?]
+	at java.base/java.io.PushbackInputStream.unread(PushbackInputStream.java:247) ~[?:?]
+	at fcm.a(SourceFile:135) ~[server-1.21.8.jar:?]
+	at fcm.a(SourceFile:111) ~[server-1.21.8.jar:?]
+	at fcm.c(SourceFile:88) ~[server-1.21.8.jar:?]
+	at fcm.b(SourceFile:77) ~[server-1.21.8.jar:?]
+	at fcm.a(SourceFile:63) ~[server-1.21.8.jar:?]
+	at aty.<init>(SourceFile:101) ~[server-1.21.8.jar:?]
+	at aub.<init>(SourceFile:245) ~[server-1.21.8.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:390) ~[server-1.21.8.jar:?]
+	at net.minecraft.server.MinecraftServer.u_(SourceFile:355) ~[server-1.21.8.jar:?]
+	at ari.e(SourceFile:184) ~[server-1.21.8.jar:?]
+	at net.minecraft.server.MinecraftServer.y(SourceFile:672) ~[server-1.21.8.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:291) ~[server-1.21.8.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[01:50:14] [Server thread/ERROR]: Error loading saved data: SavedDataType[raids]
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: length -1 is negative
+	at java.base/java.lang.System.arraycopy(Native Method) ~[?:?]
+	at java.base/java.io.PushbackInputStream.unread(PushbackInputStream.java:247) ~[?:?]
+	at fcm.a(SourceFile:135) ~[server-1.21.8.jar:?]
+	at fcm.a(SourceFile:111) ~[server-1.21.8.jar:?]
+	at fcm.c(SourceFile:88) ~[server-1.21.8.jar:?]
+	at fcm.b(SourceFile:77) ~[server-1.21.8.jar:?]
+	at fcm.a(SourceFile:63) ~[server-1.21.8.jar:?]
+	at aub.<init>(SourceFile:255) ~[server-1.21.8.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:390) ~[server-1.21.8.jar:?]
+	at net.minecraft.server.MinecraftServer.u_(SourceFile:355) ~[server-1.21.8.jar:?]
+	at ari.e(SourceFile:184) ~[server-1.21.8.jar:?]
+	at net.minecraft.server.MinecraftServer.y(SourceFile:672) ~[server-1.21.8.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:291) ~[server-1.21.8.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[01:50:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:50:17] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[01:50:17] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[01:50:17] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[01:50:17] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[01:50:17] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[01:50:17] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[01:50:17] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[01:50:17] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[01:50:18] [Server thread/INFO]: Time elapsed: 3713 ms
+[01:50:18] [Server thread/INFO]: Done (4.005s)! For help, type "help"
+[01:51:08] [Server thread/INFO]: ZZRoyers[/127.45.56.155:52579] logged in with entity id 23 at (100.02201656781449, 105.23727932566393, 553.1412103011718)
+[01:51:08] [Server thread/INFO]: ZZRoyers joined the game
+[01:52:33] [Server thread/INFO]: ZZRoyers has made the advancement [We Need to Go Deeper]
+[01:52:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3895ms or 77 ticks behind
+[01:55:47] [Server thread/INFO]: Made ZZRoyers a server operator
+[01:55:54] [Server thread/INFO]: [ZZRoyers: Set own game mode to Spectator Mode]
+[01:56:35] [Server thread/WARN]: ZZRoyers moved too quickly! 9.941024235717393,0.0,-1.8088978758001701
+[01:56:38] [Server thread/WARN]: ZZRoyers moved too quickly! 8.756205824261059,0.0,-6.106306035353171
+[01:56:42] [Server thread/WARN]: ZZRoyers moved too quickly! 9.89014186480216,0.0,4.239484811132456
+[01:56:55] [Server thread/WARN]: ZZRoyers moved too quickly! 7.736845356028198,0.0,6.545456276418065
+[01:57:03] [Server thread/WARN]: ZZRoyers moved too quickly! -10.18112075882226,0.0,0.9352949237066355
+[01:57:12] [Server thread/WARN]: ZZRoyers moved too quickly! -9.735017952991754,3.369388557363088,0.2511184046525159
+[01:57:20] [Server thread/WARN]: ZZRoyers moved too quickly! -3.0185044718962857,0.0,-9.800575177706179
+[01:57:43] [Server thread/WARN]: ZZRoyers moved too quickly! -10.56413422171823,0.0,-0.01165670633393745
+[01:58:04] [Server thread/WARN]: ZZRoyers moved too quickly! 9.537688976493854,0.0,-4.645287975335663
+[01:58:14] [Server thread/WARN]: ZZRoyers moved too quickly! 1.5248647146810086,0.0,-10.5413245477856
+[01:58:21] [Server thread/INFO]: ZZRoyers lost connection: Disconnected
+[01:58:21] [Server thread/INFO]: ZZRoyers left the game
+[01:59:21] [Server thread/INFO]: Server empty for 60 seconds, pausing
