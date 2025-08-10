@@ -11,6 +11,7 @@
       "minecraft:beach": "2025-07-25 18:59:01 +0000",
       "minecraft:forest": "2025-07-25 18:57:33 +0000",
       "minecraft:sunflower_plains": "2025-07-25 06:22:31 +0000",
+      "minecraft:cherry_grove": "2025-08-10 02:59:22 +0000",
       "minecraft:river": "2025-07-25 06:21:53 +0000",
       "minecraft:meadow": "2025-07-25 06:21:28 +0000",
       "minecraft:birch_forest": "2025-07-25 18:58:37 +0000",
@@ -84,14 +85,6 @@
     },
     "done": true
   },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:crimson_forest": "2025-08-10 01:52:35 +0000",
-      "minecraft:nether_wastes": "2025-08-10 01:56:51 +0000",
-      "minecraft:soul_sand_valley": "2025-08-10 01:57:11 +0000"
-    },
-    "done": false
-  },
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2025-08-10 01:52:33 +0000"
@@ -101,6 +94,32 @@
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2025-08-10 01:52:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2025-08-10 01:52:35 +0000",
+      "minecraft:nether_wastes": "2025-08-10 01:56:51 +0000",
+      "minecraft:soul_sand_valley": "2025-08-10 01:57:11 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2025-08-10 02:57:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-08-10 02:58:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-08-10 02:58:03 +0000"
     },
     "done": true
   },
