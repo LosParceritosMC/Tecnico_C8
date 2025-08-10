@@ -1,102 +1,46 @@
-[02:55:19] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[02:55:21] [ServerMain/INFO]: Loaded 1407 recipes
-[02:55:21] [ServerMain/INFO]: Loaded 1520 advancements
-[02:55:21] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[02:55:21] [Server thread/INFO]: Loading properties
-[02:55:21] [Server thread/INFO]: Default game type: SURVIVAL
-[02:55:21] [Server thread/INFO]: Generating keypair
-[02:55:21] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:55:21] [Server thread/INFO]: Using epoll channel type
-[02:55:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:55:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:55:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:55:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:55:21] [Server thread/INFO]: Preparing level "world"
-[02:55:22] [Server thread/ERROR]: Error loading saved data: SavedDataType[chunks]
-java.lang.ArrayIndexOutOfBoundsException: arraycopy: length -1 is negative
-	at java.base/java.lang.System.arraycopy(Native Method) ~[?:?]
-	at java.base/java.io.PushbackInputStream.unread(PushbackInputStream.java:247) ~[?:?]
-	at fcm.a(SourceFile:135) ~[server-1.21.8.jar:?]
-	at fcm.a(SourceFile:111) ~[server-1.21.8.jar:?]
-	at fcm.c(SourceFile:88) ~[server-1.21.8.jar:?]
-	at fcm.b(SourceFile:77) ~[server-1.21.8.jar:?]
-	at fcm.a(SourceFile:63) ~[server-1.21.8.jar:?]
-	at aty.<init>(SourceFile:101) ~[server-1.21.8.jar:?]
-	at aub.<init>(SourceFile:245) ~[server-1.21.8.jar:?]
-	at net.minecraft.server.MinecraftServer.a(SourceFile:430) ~[server-1.21.8.jar:?]
-	at net.minecraft.server.MinecraftServer.u_(SourceFile:355) ~[server-1.21.8.jar:?]
-	at ari.e(SourceFile:184) ~[server-1.21.8.jar:?]
-	at net.minecraft.server.MinecraftServer.y(SourceFile:672) ~[server-1.21.8.jar:?]
-	at net.minecraft.server.MinecraftServer.a(SourceFile:291) ~[server-1.21.8.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[02:55:22] [Server thread/ERROR]: Error loading saved data: SavedDataType[chunks]
-java.lang.ArrayIndexOutOfBoundsException: arraycopy: length -1 is negative
-	at java.base/java.lang.System.arraycopy(Native Method) ~[?:?]
-	at java.base/java.io.PushbackInputStream.unread(PushbackInputStream.java:247) ~[?:?]
-	at fcm.a(SourceFile:135) ~[server-1.21.8.jar:?]
-	at fcm.a(SourceFile:111) ~[server-1.21.8.jar:?]
-	at fcm.c(SourceFile:88) ~[server-1.21.8.jar:?]
-	at fcm.b(SourceFile:77) ~[server-1.21.8.jar:?]
-	at fcm.a(SourceFile:63) ~[server-1.21.8.jar:?]
-	at aty.<init>(SourceFile:101) ~[server-1.21.8.jar:?]
-	at aub.<init>(SourceFile:245) ~[server-1.21.8.jar:?]
-	at net.minecraft.server.MinecraftServer.a(SourceFile:430) ~[server-1.21.8.jar:?]
-	at net.minecraft.server.MinecraftServer.u_(SourceFile:355) ~[server-1.21.8.jar:?]
-	at ari.e(SourceFile:184) ~[server-1.21.8.jar:?]
-	at net.minecraft.server.MinecraftServer.y(SourceFile:672) ~[server-1.21.8.jar:?]
-	at net.minecraft.server.MinecraftServer.a(SourceFile:291) ~[server-1.21.8.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[02:55:22] [Server thread/ERROR]: Error loading saved data: SavedDataType[raids]
-java.lang.ArrayIndexOutOfBoundsException: arraycopy: length -1 is negative
-	at java.base/java.lang.System.arraycopy(Native Method) ~[?:?]
-	at java.base/java.io.PushbackInputStream.unread(PushbackInputStream.java:247) ~[?:?]
-	at fcm.a(SourceFile:135) ~[server-1.21.8.jar:?]
-	at fcm.a(SourceFile:111) ~[server-1.21.8.jar:?]
-	at fcm.c(SourceFile:88) ~[server-1.21.8.jar:?]
-	at fcm.b(SourceFile:77) ~[server-1.21.8.jar:?]
-	at fcm.a(SourceFile:63) ~[server-1.21.8.jar:?]
-	at aub.<init>(SourceFile:255) ~[server-1.21.8.jar:?]
-	at net.minecraft.server.MinecraftServer.a(SourceFile:430) ~[server-1.21.8.jar:?]
-	at net.minecraft.server.MinecraftServer.u_(SourceFile:355) ~[server-1.21.8.jar:?]
-	at ari.e(SourceFile:184) ~[server-1.21.8.jar:?]
-	at net.minecraft.server.MinecraftServer.y(SourceFile:672) ~[server-1.21.8.jar:?]
-	at net.minecraft.server.MinecraftServer.a(SourceFile:291) ~[server-1.21.8.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[02:55:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:55:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:55:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:55:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:55:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:55:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:55:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:55:25] [Server thread/INFO]: Time elapsed: 3034 ms
-[02:55:25] [Server thread/INFO]: Done (3.400s)! For help, type "help"
-[02:55:39] [Server thread/INFO]: ZZRoyers[/127.45.56.155:52399] logged in with entity id 23 at (14.005740553895295, 41.82393032465164, 7.734888009359056)
-[02:55:39] [Server thread/INFO]: ZZRoyers joined the game
-[02:57:38] [Server thread/INFO]: [ZZRoyers: Set own game mode to Survival Mode]
-[02:57:41] [Server thread/INFO]: [ZZRoyers: Set own game mode to Spectator Mode]
-[02:57:49] [Server thread/INFO]: [ZZRoyers: Set own game mode to Creative Mode]
-[02:57:54] [Server thread/INFO]: ZZRoyers has made the advancement [Eye Spy]
-[02:58:03] [Server thread/INFO]: ZZRoyers has made the advancement [The End?]
-[02:58:03] [Server thread/INFO]: Scanning for legacy world dragon fight...
-[02:58:03] [Server thread/INFO]: Found that the dragon has been killed in this world already.
-[02:58:42] [Server thread/WARN]: ZZRoyers moved too quickly! -7.110672147311172,6.750000267469048,2.155017054400833
-[02:59:16] [Server thread/INFO]: [ZZRoyers: Set own game mode to Spectator Mode]
-[02:59:19] [Server thread/WARN]: ZZRoyers moved too quickly! -4.618838843832421,0.0,9.029486516512193
-[02:59:47] [Server thread/WARN]: ZZRoyers moved too quickly! 10.134609837132189,0.0,3.9811722612345193
-[02:59:49] [Server thread/WARN]: ZZRoyers moved too quickly! 9.923340344734072,0.0,3.8981172780759152
-[03:00:05] [Server thread/INFO]: [ZZRoyers: Set own game mode to Creative Mode]
-[03:03:42] [Server thread/INFO]: ZZRoyers lost connection: Disconnected
-[03:03:42] [Server thread/INFO]: ZZRoyers left the game
-[03:04:42] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[03:05:25] [Server thread/INFO]: Stopping the server
-[03:05:25] [Server thread/INFO]: Stopping server
-[03:05:25] [Server thread/INFO]: Saving players
-[03:05:25] [Server thread/INFO]: Saving worlds
-[03:05:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03:05:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[03:05:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[03:05:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:05:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:05:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:05:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:18:12] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:18:15] [ServerMain/INFO]: Loaded 1407 recipes
+[03:18:15] [ServerMain/INFO]: Loaded 1520 advancements
+[03:18:15] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[03:18:15] [Server thread/INFO]: Loading properties
+[03:18:15] [Server thread/INFO]: Default game type: SURVIVAL
+[03:18:15] [Server thread/INFO]: Generating keypair
+[03:18:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:18:15] [Server thread/INFO]: Using epoll channel type
+[03:18:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:18:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:18:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:18:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:18:15] [Server thread/INFO]: Preparing level "world"
+[03:18:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:18:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:18:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:18:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:18:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:18:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:18:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:18:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:18:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:18:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:18:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:18:20] [Worker-Main-3/INFO]: Preparing spawn area: 18%
+[03:18:21] [Worker-Main-1/INFO]: Preparing spawn area: 67%
+[03:18:21] [Server thread/INFO]: Time elapsed: 5661 ms
+[03:18:21] [Server thread/INFO]: Done (5.940s)! For help, type "help"
+[03:18:22] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[03:18:22] [Server thread/INFO]: <--[HERE]
+[03:18:32] [Server thread/INFO]: ZZRoyers[/127.45.56.155:53205] logged in with entity id 39 at (4.641369151008464, 34.0, 61.51287608389445)
+[03:18:32] [Server thread/INFO]: ZZRoyers joined the game
+[03:18:37] [Server thread/INFO]: ZZRoyers lost connection: Disconnected
+[03:18:37] [Server thread/INFO]: ZZRoyers left the game
+[03:18:50] [Server thread/INFO]: Stopping the server
+[03:18:50] [Server thread/INFO]: Stopping server
+[03:18:50] [Server thread/INFO]: Saving players
+[03:18:50] [Server thread/INFO]: Saving worlds
+[03:18:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:18:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:18:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:18:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:18:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:18:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:18:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
